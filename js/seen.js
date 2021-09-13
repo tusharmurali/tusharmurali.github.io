@@ -1,6 +1,7 @@
 const seenEl = document.querySelector('#lastseen');
 
 function updateSeen() {
+    console.log("newversion");
     fetch("https://api.github.com/users/tusharmurali/events").then(response => response.text()).then(response => {
         let json = JSON.parse(r);
         if (json[0].repo) {
