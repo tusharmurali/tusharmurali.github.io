@@ -1,13 +1,13 @@
 const ProjectData = {
+	"bettergenesis": {
+		title: "BetterGenesis",
+		github: "https://github.com/tusharmurali/better-genesis",
+		description: "BetterGenesis is a web app used by students at my high school to track their grades with tools such as grade calculators and grade trend tracking. I facetiously named it BetterGenesis as I intended it to be an enhanced version of Genesis, the school's crude grade viewing system. The site is active <a href=\"https://better-genesis.herokuapp.com/\">here</a>. It involved creating a web server in Express fit with industry standard AES-256 encryption along with a Vue frontend."
+	},
 	"growth_tracker": {
 		title: "Growth Tracker",
 		github: "https://github.com/ottomated/growth-tracker",
 		description: "Growth Tracker is a <a href=\"https://discordapp.com/\">Discord</a> bot that's currently used by over 2,000 servers and 1,000,000 total people. It tracks how many people are in each server over time and can generate and display graphs of this growth. This was the first project that I made that became widely used, and I'm still maintaining it alone today."
-	},
-	"dickens": {
-		title: "Dickens Carolers",
-		github: "",
-		description: "This is a private project I did under contract from the <a href=\"http://www.dickenscarolers.com/\">Dickens Carolers</a>, a Seattle singing group. It involved interfacing with a Google spreadsheet and managing scheduling for dozens of people."
 	},
 	"minesweeper_b": {
 		title: "Minesweeper Royale (backend)",

@@ -271,7 +271,7 @@ canvas {
 	opacity: 0;
 	position: absolute;
 	z-index: 1000;
-	background: #000000d0;
+	background: #000000e8 !important;
 	border-radius: 20px;
 	border: 2px solid white;
 	width: 90vw;
