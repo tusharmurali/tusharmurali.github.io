@@ -43,11 +43,10 @@ for (let button of lang_buttons) {
 			return;
 		}
 
-		// Remove underline from old lang
 		if (currentEl) currentEl.className = 'lang-button';
 		button.className = 'lang-button active';
 
-		// Do line down animation
+
 		let x = (button.offsetLeft + button.clientWidth / 2);
 		lineDownSvg.style.left = x + 'px';
 		lineDownSvg.style.opacity = '1';
@@ -55,11 +54,8 @@ for (let button of lang_buttons) {
 		lineDown.style.stroke = button.style.color;
 		lineDown.style.strokeDashoffset = '-100px';
 
-		// Place exit thingy
 		langHint.style.left = x + 'px';
 
-
-		// Do rectangle path
 		currentEl = button;
 		setUpPath();
 		undoPath(0.25);
@@ -75,7 +71,6 @@ for (let button of lang_buttons) {
 			panel.classList.add('shown');
 			going = false;
 
-			// Animate all the children
 			let divs = panel.querySelectorAll('.projects>.proj');
 			let timeout = 200;
 			for (let div of divs) {
@@ -84,7 +79,6 @@ for (let button of lang_buttons) {
 			}
 		}, 500);
 
-		// exit thingy timeout
 		if (!window.localStorage.hideClickToExit) {
 			langHint.exitTimeout = setTimeout(() => {
 				langHint.innerText = '(click again to exit)';
@@ -102,7 +96,6 @@ function setUpPath() {
 	let h = window.innerHeight - left.parentElement.getBoundingClientRect().y - 20;
 	let x2 = window.innerWidth - x - 40;
 
-	// Create svg paths
 	left.setAttribute('d', `M ${x + 2},0
 							C 100,0 40,0 40,0
 							40,0 0,0 0,40
@@ -116,7 +109,7 @@ function setUpPath() {
 							 ${x2},${h - 40} ${x2},${h} ${x2 - 40},${h}
 							 ${x2 - x + 40},${h} ${x2 - x},${h} ${x2 - x},${h}`);
 	right.style.transform = `translateX(${x + 1}px) translateY(1px)`;
-	// Reset everything
+
 	let len = left.getTotalLength();
 	left.style.transition = 'initial';
 	left.style.strokeDasharray = len;
@@ -129,7 +122,6 @@ function doPath(color) {
 	left.style.stroke = color;
 	right.style.stroke = color;
 
-	// Do animation
 	left.style.transition = 'stroke-dashoffset .75s ease-in-out';
 	right.style.transition = 'stroke-dashoffset .75s ease-in-out';
 	left.style.strokeDashoffset = '0';
@@ -143,7 +135,6 @@ function undoPath(seconds) {
 	left.style.strokeDashoffset = len;
 	right.style.strokeDashoffset = len;
 
-	// Hide current panel
 	let shownPanel = document.querySelector('.lang-panel.shown');
 	if (shownPanel) {
 		shownPanel.classList.remove('shown');

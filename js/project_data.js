@@ -2,61 +2,36 @@ const ProjectData = {
 	"bettergenesis": {
 		title: "BetterGenesis",
 		github: "https://github.com/tusharmurali/better-genesis",
-		description: "BetterGenesis is a web app used by students at my high school to track their grades with tools such as grade calculators and grade trend tracking. I facetiously named it BetterGenesis as I intended it to be an enhanced version of Genesis, the school's crude grade viewing system. The site is active <a href=\"https://better-genesis.herokuapp.com/\">here</a>. It involved creating a web server in Express fit with industry standard AES-256 encryption along with a Vue frontend."
+		description: "BetterGenesis is a web app used by students at my high school to track their grades with tools such as grade calculators and grade trend tracking. I facetiously named it BetterGenesis as I intended it to be an enhanced version of Genesis, the school's crude grade viewing system. The site is active <a href=\"https://better-genesis.herokuapp.com/\" target=\"_blank\">here</a>. It involved creating a web server in Express fit with industry standard AES-256 encryption along with a Vue frontend."
 	},
-	"growth_tracker": {
-		title: "Growth Tracker",
-		github: "https://github.com/ottomated/growth-tracker",
-		description: "Growth Tracker is a <a href=\"https://discordapp.com/\">Discord</a> bot that's currently used by over 2,000 servers and 1,000,000 total people. It tracks how many people are in each server over time and can generate and display graphs of this growth. This was the first project that I made that became widely used, and I'm still maintaining it alone today."
+	"glucosity": {
+		title: "Glucosity",
+		github: "",
+		description: "My goal with Glucosity is to have an online dashboard for diabetics to obtain smart predictions about their blood glucose levels by logging their carbohydrate intake and physical activity. Inspired by <a href=\"https://loopkit.github.io/loopdocs/\" target=\"_blank\">LoopKit</a>, Glucosity is a work in progress."
 	},
-	"minesweeper_b": {
-		title: "Minesweeper Royale (backend)",
-		github: "https://github.com/WilliamDann/minesweeper-royale",
-		description: "During CodeDay Spring 2019, a 24-hour hackathon, I created the Express backend for an online battle royale version of minesweeper, using websockets to communicate."
+	"rhythm": {
+		title: "Rhythm",
+		github: "https://github.com/tusharmurali/rhythm",
+		description: "My first venture into Java, Rhythm is a game I built for my AP Computer Science A final project. Notes fall in rhythm to each track, and the player must tap the corresponding keys in time. I used the AWT for visuals and JLayer for audio. <div align=\"center\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8fgNbsc0y0Y\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>"
 	},
-	"dunabase": {
-		title: "Dunabase",
-		github: "https://github.com/ottomated/dunabase",
-		description: "My first venture into Flutter. This app connects with a Google spreadsheet and uses an algorithm to enumerate the songs that can be sung by a subset of a singing group (in which each person only knows a certain set of songs)"
+	"harvestable": {
+		title: "Harvestable",
+		github: "https://github.com/MugPand/Harvestable",
+		description: "Harvestable is an Android app that evaluates whether it's a good day for farmers to plant or harvest crops. I created this app with <a href=\"https://github.com/MugPand\" target=\"_blank\">Mugdhesh Pandkar</a> for hackMHS V. We hope that such an app could eventually be put into production to make the work of agriculture more efficient. We utilized multiple climate APIs along with a custom research-based algorithm to predict good harvests."
 	},
-	"source_mobile": {
-		title: "Source Mobile",
-		github: "https://github.com/ottomated/source-mobile",
-		description: "An app that allows students of Seattle Public Schools to check their grades on their mobile device. Published on the Apple Store and Play Store with over 3,000 downloads and great feedback! I also created a splash website from scratch for this project <a href=\"https://ottomated.net/source\">here</a>."
+	"securcity": {
+		title: "Securcity",
+		github: "https://github.com/mattr-crooks/HackJA2018",
+		description: "Securcity is a web app that builds a complex portfolio of information about any city in the United States. I created this website with <a href=\"https://github.com/mattr-crooks\" target=\"_blank\">Matt Crooks</a>, <a href=\"https://github.com/MugPand\" target=\"_blank\">Mugdhesh Pandkar</a>, and <a href=\"https://github.com/papermango\" target=\"_blank\">Parth Deshmukh</a>, and we ended up taking the winning spot in HackJA 2018. We intend for the website to be used by people who are relocating or immigrating and want to ascertain the safety of a new area. I worked on the backend portion of the project and worked with several APIs and data collection services to deliver a brief summary of statistics."
 	},
-	"repertoire": {
-		title: "Repertoire",
-		github: "https://github.com/ottomated/repertoire",
-		description: "I made this app for my dance group to ease the sharing of costumes and dance data. This is the first project where I actively pursued usability testing and I plan to publish it once it's polished."
+	"spark": {
+		title: "Spark",
+		github: "https://github.com/ArnavD74/Spark",
+		description: "Spark is a simple HTML quiz that uses research from Care/of to recommend to each person which vitamin, protein, and powder would be most helpful to their nutrition. I made the website in collaboration with <a href=\"https://github.com/ArnavD74\" target=\"_blank\">Arnav Dashaputra</a>, and Rohit Amarnath. The website is live <a href=\"https://dashaputra.net/Spark/\">here</a>. The website has an unfinished dashboard stage after the quiz, which a user may use to track caloric intake via the Nutritionix API."
 	},
-	"makemehappy": {
-		title: "Make Me Happy",
-		github: "https://github.com/WilliamDann/hack2018/tree/master/CodeDay/static",
-		description: "An app made in 24 hours for CodeDay Fall 2018. I worked on the frontend and used this project to learn about how to use git properly."
-	},
-	"portfolio": {
-		title: "Portfolio",
-		github: "https://github.com/ottomated/portfolio",
-		description: "You're looking at it! This website was a lot of work and I'm really proud of some of the results I got, such as the svg animations and the overall aesthetic."
-	},
-	"minesweeper_f": {
-		title: "Minesweeper Royale (frontend)",
-		github: "https://github.com/WilliamDann/minesweeper-royale/tree/master/public",
-		description: "Along with the Express backend for this 24-hour project, I created the HTML/CSS/JS frontend! I think it turned out really well for the limited time, and matched the original theme accurately.",
-	},
-	"antislouch": {
-		title: "AntiSlouch",
-		github: "https://github.com/ottomated/AntiSlouch",
-		description: "Made in 24 hours at CodeDay Spring 2018, this app uses face tracking in OpenCV to detect whether or not you're slouching at your computer. Made in Python.",
-	},
-	"reqlang": {
-		title: "ReqLang",
-		github: "https://github.com/ottomated/reqlang",
-		description: "How I got to know C++. The eventual goal of this project is to create an interpreter for a custom language based around scripting HTTP requests, but I can't devote much time to it and it's nowhere near complete.",
-	},
-	"ognes": {
-		title: "OGNes",
-		github: "https://github.com/ottomated/OGNes",
-		description: "An NES emulator written in Java for a school project. It's compatible with most common games, although definitely not perfect.",
-	},
+	"cstimerrp": {
+		title: "csTimer Rich Presence",
+		github: "https://github.com/tusharmurali/cstimer-rp",
+		description: "csTimer Rich Presence is a small program that provides Discord Integration for the popular Rubik's Cube timer csTimer.net. The program consists of some JQuery code which runs through a Chrome extension and a Python program that uses the discord.py API. Updating every 5 seconds, the program shows the average of your past 5 and 12 times as well as the event and scramble type.",
+	}
 };

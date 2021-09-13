@@ -114,7 +114,7 @@ a.d {
 	color: #90c53f;
 }
 
-#flutter>.lang-desc>span {
+#java>.lang-desc>span {
 	color: #5ec9f8;
 }
 
@@ -122,7 +122,7 @@ a.d {
 	color: #f16529;
 }
 
-#others>.lang-desc>span {
+#more>.lang-desc>span {
 	color: #ffdd48;
 }
 
@@ -230,12 +230,12 @@ canvas {
 	border-left-color: #90c53f;
 }
 
-.projects.flutter>.proj.loaded::before {
+.projects.java>.proj.loaded::before {
 	border-top-color: #5ec9f8;
 	border-right-color: #5ec9f8;
 }
 
-.projects.flutter>.proj.loaded::after {
+.projects.java>.proj.loaded::after {
 	border-bottom-color: #5ec9f8;
 	border-left-color: #5ec9f8;
 }
@@ -250,12 +250,12 @@ canvas {
 	border-left-color: #f16529;
 }
 
-.projects.others>.proj.loaded::before {
+.projects.more>.proj.loaded::before {
 	border-top-color: #ffdd48;
 	border-right-color: #ffdd48;
 }
 
-.projects.others>.proj.loaded::after {
+.projects.more>.proj.loaded::after {
 	border-bottom-color: #ffdd48;
 	border-left-color: #ffdd48;
 }
@@ -287,7 +287,7 @@ canvas {
 	border-color: #90c53f;
 }
 
-#modal.flutter, #modal.flutter>.close {
+#modal.java, #modal.java>.close {
 	border-color: #5ec9f8;
 }
 
@@ -295,7 +295,7 @@ canvas {
 	border-color: #f16529;
 }
 
-#modal.others, #modal.others>.close {
+#modal.more, #modal.more>.close {
 	border-color: #ffdd48;
 }
 
