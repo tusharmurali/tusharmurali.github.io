@@ -16,11 +16,10 @@ globe = new ENCOM.Globe(window.innerWidth, window.innerHeight - (main.clientTop 
 document.getElementById('details').appendChild(globe.domElement);
 
 function animate() {
-    if (globe) {
-        globe.tick();
-    }
+    if (globe) globe.tick();
     requestAnimationFrame(animate);
 }
+
 let initGlobe = () => {
     globe.init();
     animate();
@@ -32,24 +31,23 @@ let initGlobe = () => {
             globe.addMarker(loc2.latitude, loc2.longitude, loc2.ip, Math.abs(loc.lon - loc2.lon) > 25);
         });
     });
-    var constellation = [];
-    var opts = {
-        coreColor: "#ff0000",
-        numWaves: 8
-    };
-    var alt = 1;
 
-    for (var i = 0; i < 2; i++) {
-        for (var j = 0; j < 3; j++) {
+    const constellation = [];
+
+    for (let i = 0; i < 2; i++) {
+        for (let j = 0; j < 3; j++) {
             constellation.push({
                 lat: 50 * i - 30 + 15 * Math.random(),
                 lon: 120 * j - 120 + 30 * i,
-                altitude: alt
+                altitude: 1
             });
         }
     }
 
-    globe.addConstellation(constellation, opts);
+    globe.addConstellation(constellation, {
+        coreColor: "#ff0000",
+        numWaves: 8
+    });
 }
 window.addEventListener('resize', () => {
     let h = window.innerHeight - (main.clientTop + main.clientHeight);
