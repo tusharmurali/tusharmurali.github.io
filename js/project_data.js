@@ -32,6 +32,6 @@ const ProjectData = {
 	"cstimerrp": {
 		title: "csTimer Rich Presence",
 		github: "https://github.com/tusharmurali/cstimer-rp",
-		description: "csTimer Rich Presence is a small program that provides Discord Integration for the popular Rubik's Cube timer csTimer.net. The program consists of some JQuery code which runs through a Chrome extension and a Python program that uses the discord.py API. Updating every 5 seconds, the program shows the average of your past 5 and 12 times as well as the event and scramble type.",
+		description: "csTimer Rich Presence is a small program that provides Discord Integration for the popular Rubik's Cube timer <a href=\"https://cstimer.net\">csTimer.net</a>. The program consists of some JQuery code which runs through a Chrome extension and a Python program that uses the discord.py API. Updating every 5 seconds, the program shows the average of your past 5 and 12 times as well as the event and scramble type.",
 	}
 };
