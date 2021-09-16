@@ -154,7 +154,7 @@ for (let p of projs) {
 			modal.children[2].style.display = 'block';
 			modal.children[2].firstElementChild.href = data.github;
 		} else {
-			modal.children[2].style.display = 'hidden';
+			modal.children[2].style.display = 'none';
 		}
 		modal.classList = 'shown';
 		modal.classList.add(color);
