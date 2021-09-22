@@ -24,6 +24,11 @@ const ProjectData = {
 		github: "https://github.com/mattr-crooks/HackJA2018",
 		description: "Securcity is a web app that builds a complex portfolio of information about any city in the United States. I created this website with <a href=\"https://github.com/mattr-crooks\" target=\"_blank\">Matt Crooks</a>, <a href=\"https://github.com/MugPand\" target=\"_blank\">Mugdhesh Pandkar</a>, and <a href=\"https://github.com/papermango\" target=\"_blank\">Parth Deshmukh</a>, and we ended up taking the first prize in HackJA 2018. We intend for the website to be used by people who are relocating and want to gauge the safety of a new area. I worked on the backend portion of the project and utilized several APIs and data collection services to deliver a brief summary of statistics."
 	},
+	"melat8": {
+		title: "Melat-8&reg;",
+		github: "",
+		description: "Melat-8 is a website I build as an unpaid intern for <a href=\"https://www.pharmvista.com\" target=\"_blank\">Pharmvista</a>. The site, which is active <a href=\"http://melat8.com\" target=\"_blank\">here</a>, features their line of organic melatonin gummies in a theme similar to Apple's website. I built this project using <a href=\"https://getbootstrap.com\">Bootstrap</a> along with a healthy dose of teamwork, communication, and meeting deadlines."
+	},
 	"spark": {
 		title: "Spark",
 		github: "https://github.com/ArnavD74/Spark",
