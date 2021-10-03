@@ -29,10 +29,10 @@ const ProjectData = {
 		github: "",
 		description: "Melat-8 is a website I build as an unpaid intern for <a href=\"https://www.pharmvista.com\" target=\"_blank\">Pharmvista</a>. The site, which is active <a href=\"http://melat8.com\" target=\"_blank\">here</a>, features their line of organic melatonin gummies in a theme similar to Apple's website. I built this project using <a href=\"https://getbootstrap.com\">Bootstrap</a> along with a healthy dose of teamwork, communication, and meeting deadlines."
 	},
-	"spark": {
-		title: "Spark",
-		github: "https://github.com/ArnavD74/Spark",
-		description: "Spark is a simple HTML quiz that uses research from Care/of to recommend to each person which vitamin, protein, and powder would be most helpful to their nutrition. I made the website in collaboration with <a href=\"https://github.com/ArnavD74\" target=\"_blank\">Arnav Dashaputra</a>, and Rohit Amarnath. The website is live <a href=\"https://dashaputra.net/Spark/\">here</a>. The website has an unfinished dashboard stage after the quiz, which a user may use to track caloric intake via the Nutritionix API."
+	"chessmemory": {
+		title: "ChessMemory",
+		github: "https://github.com/tusharmurali/chess-memory",
+		description: "ChessMemory is a visual memory trainer that uses Chess puzzles. Inspired by Human Benchmark's <a href=\"https://humanbenchmark.com/tests/memory\" target=\"_blank\">Visual Memory Test</a>, ChessMemory trains both visual memory and chess tactics at the same time. ChessMemory uses over 380,000 puzzles in the 1250-1750 rating range from the <a href=\"https://lichess.org\" target=\"_blank\">lichess.org</a> puzzle database. Check out the site <a href=\"https://tusharmurali.github.io/chess-memory/\" target=\"_blank\">here.</a>"
 	},
 	"cstimerrp": {
 		title: "csTimer Rich Presence",
