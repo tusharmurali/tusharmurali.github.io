@@ -47,7 +47,7 @@ let update = () => {
         header.classList.add('top');
         setTimeout(() => {
             document.getElementById('main').style.opacity = 1;
-            initGlobe();
+            anim1()
         }, 500);
         window.localStorage.stepDenominator = 2;
     }
