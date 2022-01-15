@@ -32,7 +32,7 @@ const ProjectData = {
 	"chessmemory": {
 		title: "ChessMemory",
 		github: "https://github.com/tusharmurali/chess-memory",
-		description: "ChessMemory is a visual memory trainer that uses Chess puzzles. Inspired by Human Benchmark's <a href=\"https://humanbenchmark.com/tests/memory\" target=\"_blank\">Visual Memory Test</a>, ChessMemory trains both visual memory and chess tactics at the same time. ChessMemory uses over 380,000 puzzles in the 1250-1750 rating range from the <a href=\"https://lichess.org\" target=\"_blank\">lichess.org</a> puzzle database. The website is also featured on <a href=\"https://database.lichess.org/#related-projects\" target=\"_blank\">https://database.lichess.org/#related-projects</a>. Check out the site <a href=\"https://tusharmurali.github.io/chess-memory/\" target=\"_blank\">here.</a>"
+		description: "ChessMemory is a visual memory trainer that uses Chess puzzles. Inspired by Human Benchmark's <a href=\"https://humanbenchmark.com/tests/memory\" target=\"_blank\">Visual Memory Test</a>, ChessMemory trains both visual memory and chess tactics at the same time. ChessMemory uses puzzles from the <a href=\"https://lichess.org\" target=\"_blank\">lichess.org</a> puzzle database. The website is also featured on <a href=\"https://database.lichess.org/#related-projects\" target=\"_blank\">https://database.lichess.org/#related-projects</a>. Check out the site <a href=\"https://tusharmurali.github.io/chess-memory/\" target=\"_blank\">here.</a>"
 	},
 	"cstimerrp": {
 		title: "csTimer Rich Presence",
