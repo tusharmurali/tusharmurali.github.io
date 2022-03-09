@@ -1,28 +1,23 @@
 const ProjectData = {
+	"anutimetable": {
+		title: "ANU Timetable",
+		github: "https://github.com/tusharmurali/anu-timetable",
+		description: "A web app that tells you when your next ANU lecture or tutorial is. All times are shown in the timezone of your device, and links to your timetable can be shared at will. The timetable supports selecting tutorials, workshops, and labs. It also has Google Maps links for directions to each location displayed. Notes can be stored for each activity by clicking on it in the calendar. Each upcoming activity is displayed below the calendar with the time until its commencement. Check out the website <a href=\"https://tusharmurali.github.io/anu-timetable/\" target=\"_blank\">here</a>."
+	},
 	"bettergenesis": {
 		title: "BetterGenesis",
 		github: "https://github.com/tusharmurali/better-genesis",
 		description: "BetterGenesis is a web application used by hundreds of students at my high school to track their grades with grade calculators and trend tracking. I facetiously named it BetterGenesis after the school's crude grade viewing system, Genesis. The site is active <a href=\"https://better-genesis.herokuapp.com/\" target=\"_blank\">here</a>. The backend consists of an Express web server with industry standard AES-256 encryption, and the frontend is made in <a href=\"https://vuejs.org\" target=\"_blank\">Vue.js</a> with <a href=\"https://vuetifyjs.com/en/\" target=\"_blank\">Vuetify</a>."
-	},
-	"glucosity": {
-		title: "Glucosity",
-		github: "",
-		description: "Glucosity is a web application inspired by <a href=\"https://loopkit.github.io/loopdocs/\" target=\"_blank\">LoopKit</a> for diabetics to obtain smart predictions about their blood glucose levels by logging their carbohydrate intake and physical activity. Glucosity is a work in progress."
 	},
 	"rhythm": {
 		title: "Rhythm",
 		github: "",
 		description: "Rhythm is a game I built for my AP Computer Science A final project, one of my first ventures into Java. Notes fall in time to each track, and the player must tap the corresponding keys. I used the AWT for visuals and JLayer for audio. Check out the GitHub <a href=\"https://github.com/tusharmurali/rhythm\" target=\"_blank\">here</a>.<div align=\"center\"><iframe width=\"500\" height=\"250\" src=\"https://www.youtube.com/embed/8fgNbsc0y0Y\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>"
 	},
-	"harvestable": {
-		title: "Harvestable",
-		github: "https://github.com/MugPand/Harvestable",
-		description: "Harvestable is an Android app that evaluates whether it's a good day for farmers to plant or harvest crops. I created this app with <a href=\"https://github.com/MugPand\" target=\"_blank\">Mugdhesh Pandkar</a> for hackMHS V. We hope that such an app could eventually be used to make the hard work of agriculture more efficient. The app utilizes multiple climate APIs along with a research-based algorithm to forecast good harvests."
-	},
-	"securcity": {
-		title: "Securcity",
-		github: "https://github.com/mattr-crooks/HackJA2018",
-		description: "Securcity is a web app that builds a complex portfolio of information about any city in the United States. I created this website with <a href=\"https://github.com/mattr-crooks\" target=\"_blank\">Matt Crooks</a>, <a href=\"https://github.com/MugPand\" target=\"_blank\">Mugdhesh Pandkar</a>, and <a href=\"https://github.com/papermango\" target=\"_blank\">Parth Deshmukh</a>, and we ended up taking first place in HackJA 2018. We intend for the website to be used by people who are relocating and want to gauge the safety of a new area. I worked on the backend portion of the project and utilized several APIs and data collection services to deliver a brief summary of statistics."
+	"wordleai": {
+		title: "Wordle AI",
+		github: "https://github.com/tusharmurali/wordle-ai",
+		description: "An AI for the daily word game Wordle. Check out the website <a href=\"https://tusharmurali.github.io/wordle-ai/\" target=\"_blank\">here</a>. The AI can guess the WORDLE in an average of 3.42 turns, which was shown by <a href=\"http://sonorouschocolate.com/notes/index.php?title=The_best_strategies_for_Wordle\" target=\"_blank\">Alex Selby</a> to be optimal. The AI tries first to maximize the number of unique tile colorings that can be given for a guess, and second to minimize the variance of the number of possibilities that could remain after making the guess."
 	},
 	"melat8": {
 		title: "Melat-8&reg;",
