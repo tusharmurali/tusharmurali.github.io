@@ -12,7 +12,7 @@ const ProjectData = {
 	"rhythm": {
 		title: "Rhythm",
 		github: "",
-		description: "Rhythm is a game I built for my AP Computer Science A final project, one of my first ventures into Java. Notes fall in time to each track, and the player must tap the corresponding keys. I used the AWT for visuals and JLayer for audio. Check out the GitHub <a href=\"https://github.com/tusharmurali/rhythm\" target=\"_blank\">here</a>.<div align=\"center\"><iframe width=\"500\" height=\"250\" src=\"https://www.youtube.com/embed/8fgNbsc0y0Y\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>"
+		description: "Rhythm is a game I built for my AP Computer Science A final project, one of my first ventures into Java. Notes fall in time to each track, and the player must tap the corresponding keys. I used the AWT for visuals and JLayer for audio.<div align=\"center\"><iframe width=\"500\" height=\"250\" src=\"https://www.youtube.com/embed/8fgNbsc0y0Y\" title=\"YouTube video player\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>"
 	},
 	"wordleai": {
 		title: "Wordle AI",
