@@ -150,6 +150,7 @@ for (let p of projs) {
 		let color = p.parentElement.getAttribute('data-cat');
 		modal.children[0].innerHTML = data.title;
 		modal.children[1].innerHTML = data.description;
+		modal.children[1].style.textAlign = 'center';
 		if (data.github) {
 			modal.children[2].style.display = 'block';
 			modal.children[2].firstElementChild.href = data.github;

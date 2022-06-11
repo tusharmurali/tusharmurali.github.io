@@ -33,5 +33,10 @@ const ProjectData = {
 		title: "csTimer Rich Presence",
 		github: "https://github.com/tusharmurali/cstimer-rp",
 		description: "csTimer Rich Presence is a small program that provides Discord Integration for the popular Rubik's Cube timer <a href=\"https://cstimer.net\">csTimer.net</a>. The program consists of <a href=\"https://jquery.com\" target=\"_blank\">jQuery</a> code which runs through a Chrome extension and a Python program that uses <a href=\"https://discordpy.readthedocs.io/en/stable/\" target=\"_blank\">discord.py</a>. Updating every 5 seconds, the program shows the average of the user's past 5 and 12 solve times as well as the event and scramble type.",
+	},
+	"research": {
+		title: "Research",
+		github: "",
+		description: "<a href=\"Chaotic_Motion_in_a_Double_Pendulum_System_and_Convective_Transport_in_Phase_Space.pdf\" class=\"d\" target=\"_blank\" style=\"color:#949494;\">Chaotic Motion in a Double Pendulum System and Convective Transport in Phase Space<span class=\"underline\" style=\"background-color:#949494;\"></span></a>"
 	}
 };
