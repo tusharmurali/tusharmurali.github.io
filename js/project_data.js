@@ -37,6 +37,6 @@ const ProjectData = {
 	"research": {
 		title: "Research",
 		github: "",
-		description: "<a href=\"Chaotic_Motion_in_a_Double_Pendulum_System_and_Convective_Transport_in_Phase_Space.pdf\" class=\"d\" target=\"_blank\" style=\"color:#949494;\">Chaotic Motion in a Double Pendulum System and Convective Transport in Phase Space<span class=\"underline\" style=\"background-color:#949494;\"></span></a>"
+		description: "<a href=\"Chaotic_Motion_in_a_Double_Pendulum_System_and_Convective_Transport_in_Phase_Space.pdf\" class=\"d\" target=\"_blank\" style=\"color:#949494;\">Chaotic Motion in a Double Pendulum System and Convective Transport in Phase Space<span class=\"underline\" style=\"background-color:#949494;\"></span></a><br><a href=\"Representation_Theory_of_the_Finite_Group_GL2(Fp).pdf\" class=\"d\" target=\"_blank\" style=\"color:#949494;\">Representation Theory of the Finite Group GL2(Fp)<span class=\"underline\" style=\"background-color:#949494;\"></span></a>"
 	}
 };
