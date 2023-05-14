@@ -42,6 +42,6 @@ const ProjectData = {
 	"solutions": {
 		title: "Solutions",
 		github: "",
-		description: "<a href=\"zill-shanahan/index.html\" class=\"d\" style=\"color:#949494;\">Dennis G. Zill, Patrick D. Shanahan. <em>A First Course in Complex Analysis.</em><span class=\"underline\" style=\"background-color:#949494;\"></span></a>"
+		description: "<a href=\"zill-shanahan\" class=\"d\" style=\"color:#949494;\">Dennis G. Zill, Patrick D. Shanahan. <em>A First Course in Complex Analysis.</em><span class=\"underline\" style=\"background-color:#949494;\"></span></a>"
 	}
 };
