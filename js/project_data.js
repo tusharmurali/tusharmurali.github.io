@@ -42,6 +42,6 @@ const ProjectData = {
 	"solutions": {
 		title: "Solutions",
 		github: "",
-		description: "<a href=\"pinter\" class=\"d\" style=\"color:#949494;\">Charles C. Pinter. <em>A Book of Abstract Algebra.</em><span class=\"underline\" style=\"background-color:#949494;\"></span></a><br><a href=\"abbott\" class=\"d\" style=\"color:#949494;\">Stephen Abbott. <em>Understanding Analysis.</em><span class=\"underline\" style=\"background-color:#949494;\"></span></a><br><a href=\"zill-shanahan\" class=\"d\" style=\"color:#949494;\">Dennis G. Zill, Patrick D. Shanahan. <em>A First Course in Complex Analysis.</em><span class=\"underline\" style=\"background-color:#949494;\"></span></a>"
+		description: "<a href=\"pinter\" class=\"d\" style=\"color:#949494;\">Charles C. Pinter. <em>A Book of Abstract Algebra.</em><span class=\"underline\" style=\"background-color:#949494;\"></span></a><br><a href=\"rudin\" class=\"d\" style=\"color:#949494;\">Walter Rudin. <em>Principles of Mathematical Analysis.</em><span class=\"underline\" style=\"background-color:#949494;\"></span></a><br><a href=\"abbott\" class=\"d\" style=\"color:#949494;\">Stephen Abbott. <em>Understanding Analysis.</em><span class=\"underline\" style=\"background-color:#949494;\"></span></a><br><a href=\"zill-shanahan\" class=\"d\" style=\"color:#949494;\">Dennis G. Zill, Patrick D. Shanahan. <em>A First Course in Complex Analysis.</em><span class=\"underline\" style=\"background-color:#949494;\"></span></a>"
 	}
 };
