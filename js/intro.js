@@ -36,6 +36,7 @@ if (window.localStorage.stepDenominator)
     stepDenominator = window.localStorage.stepDenominator;
 
 let i = 0;
+header.style.width = "30vw"
 let update = () => {
     let step = anim[i];
     header.innerText = step.t;
@@ -47,6 +48,8 @@ let update = () => {
         header.classList.add('top');
         setTimeout(() => {
             document.getElementById('main').style.opacity = 1;
+            header.style.position = "relative";
+            header.style.width = "100%"
             anim1();
         }, 500);
         window.localStorage.stepDenominator = 2;
