@@ -5,7 +5,7 @@
 body {
 	margin: 0;
 	background: black;
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 
 h1 {
@@ -337,11 +337,8 @@ canvas {
 }
 
 /* On screens that are 650px wide or less */
-@media screen and (max-width: 650px) {
-
-}
-
-/* On screens that are 600px wide or less */
 @media screen and (max-width: 600px) {
-
+	body {
+		overflow: auto;
+	}
 }
