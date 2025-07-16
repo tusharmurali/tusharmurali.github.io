@@ -1,107 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tushar Muralidharan</title>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Tushar Muralidharan</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-	<script src="js/trianglify.min.js"></script>
-	<script src="encom-globe.min.js"></script>
-	<script src="grid.js"></script>
-	<script src="js/project_data.js"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
 
-	<link rel="stylesheet" href="css/perfect-scrollbar.css">
-	<script src="js/perfect-scrollbar.min.js" type="text/javascript"></script>
-</head>
+    <!-- MathJax -->
+    <script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<body>
-	<h1 id="intro"></h1>
-	<div id="main">
-		<h2>I'm a <span id="age"></span> year-old mathematics student at <a href="https://anu.edu.au" target="_blank">ANU</a></h2>
-		<h2>who uses
-			<span class="lang-button" style="color:#90c53f;" data-panel="nodejs">Node.js<span class="underline"
-					style="background-color:#90c53f;"></span></span>,
-			<span class="lang-button" style="color: #5ec9f8;" data-panel="java">Java<span class="underline"
-					style="background-color:#5ec9f8;"></span></span>,
-			<span class="lang-button" style="color: #f16529;" data-panel="htmlcss">HTML/CSS/JS<span class="underline"
-					style="background-color:#f16529;"></span></span>, and
-			<span class="lang-button" style="color: #ffdd48;" data-panel="more">more<span class="underline"
-					style="background-color:#ffdd48;"></span></span>.
-		</h2>
-		<svg id="linedown">
-			<line x1=0 y1=0 x2=0 y2=100 />
-		</svg>
-		<span id="langhint">(click to view details)</span>
-		<svg id="rect">
-			<path id="rectleft" d=""/>
-			<path id="rectright" d=""/>
-		</svg>
-		<h3 id="tst-time">It is currently <span style="color: #9b59b6;">loading...</span> in Tushar Standard Time (TST).</h3>
-		<div id="nodejs" class="lang-panel">
-			<h2><a href="https://nodejs.org/en/" target="_blank">Node.js</a></h2>
-			<h3 class="lang-desc">Node is my language of choice for whipping up <span>quick scripts</span> and <span>web
-				servers</span> using <a href="https://expressjs.com/" target="_blank">Express</a>. I've been using
-				Node for almost <span>two years</span>.</h3>
-			<div class="projects node" data-cat="nodejs">
-				<div data-proj="anutimetable" class="proj" style="background-image: url(img/anutimetable.png)">
-					<h3>ANU Timetable</h3>
-				</div>
-				<div data-proj="bettergenesis" class="proj" style="background-image: url(img/bettergenesis.png)">
-					<h3>BetterGenesis</h3>
-				</div>
-			</div>
-		</div>
-		<div id="java" class="lang-panel">
-			<h2><a href="https://www.java.com/en/" target="_blank">Java</a></h2>
-			<h3 class="lang-desc">I've created Java programs ranging from <span>Android apps</span> to <span>computer applications</span> since <span>2016</span>. I'm learning new Java frameworks to date.
-			</h3>
-			<div class="projects java" data-cat="java">
-				<div data-proj="rhythm" class="proj" style="background-image: url(img/rhythm.png)">
-					<h3>Rhythm</h3>
-				</div>
-			</div>
-		</div>
-		<div id="htmlcss" class="lang-panel">
-			<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a>/<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a>/<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JS</a></h2>
-			<h3 class="lang-desc">I made my first website in pure HTML when I was 10 years old. I've gotten <i>slightly</i>
-				better since then, with frameworks such as <span>Bootstrap</span> and <span>Bulma</span> under my belt.
-			</h3>
-			<div class="projects htmlcss" data-cat="htmlcss">
-				<div data-proj="melat8" class="proj" style="background-image: url(img/melat8.png)">
-					<h3>Melat-8&reg;</h3>
-				</div>
-				<div data-proj="wordleai" class="proj" style="background-image: url(img/wordleai.png)">
-					<h3>Wordle AI</h3>
-				</div>
-				<div data-proj="chessmemory" class="proj" style="background-image: url(img/chessmemory.png)">
-					<h3>ChessMemory</h3>
-				</div>
-			</div>
-		</div>
-		<div id="more" class="lang-panel">
-			<h2>More skills</h2>
-			<h3 class="lang-desc">I've worked in <span>C++</span>, <span>Python</span>, and a bit of <span>C#</span>. I also like to take part in competitive programming contests on <a href="https://codeforces.com/profile/tusharmurali" target="_blank">Codeforces</a>.</h3>
-			<div class="projects more" data-cat="more">
-				<div data-proj="cstimerrp" class="proj" style="background-image: url(img/cstimerrp.png)">
-					<h3>csTimer Rich Presence</h3>
-				</div>
-			</div>
-		</div>
-		<br>
-		<div id="details">
-			<h2>Check out my <a href="https://github.com/tusharmurali" class="d" target="_blank"
-					style="color:#949494;">GitHub<span class="underline" style="background-color:#949494;"></span></a>.<br>Read my latest <a class="proj" style="color:#949494; cursor: pointer" data-proj="research">research<span class="underline" style="background-color:#949494;"></span></a>, my <a href="/blog" class="d" target="_blank" style="color:#949494;">blog<span class="underline" style="background-color:#949494;"></span></a>, or see my textbook <a href="/solutions" class="d" target="_blank" style="color:#949494;">solutions<span class="underline" style="background-color:#949494;"></span></a>.
-			</h2>
-			<br>
-			<h2 id="lastseen"></h2>
-			<h2>Want to get in touch? <a href="mailto:tushar@tusharmurali.com" class="d" target="_blank"
-					style="color:#949494;">Email me!<span class="underline"
-						style="background-color:#949494;"></span></a></h2>
-			<div id="donut" style="display: flex; justify-content: center; align-items: center">
-				<pre id="d" style="background-color:#000; color:#ccc; font-size: 10pt; text-align: center">
+    <!-- Trianglify -->
+    <script src="https://unpkg.com/trianglify@^4/dist/trianglify.bundle.js"></script>
+  </head>
+  <body>
+    <h1 id="intro"></h1>
+
+    <div id="main">
+      <!-- TST Clock -->
+      <div id="tst-time" class="alarm-clock">
+        <div class="tst-clock-row">
+          <span class="tst-digits" id="tst-digits">--:--</span>
+          <div class="tst-periods">
+            <div id="am">AM</div>
+            <div id="pm">PM</div>
+          </div>
+        </div>
+        <div class="tst-label">(Tushar Standard Time)</div>
+      </div>
+
+      <!-- Intro -->
+      <h2>
+        I'm a <span id="age"></span>-year-old mathematics student at
+        <a href="https://anu.edu.au" target="_blank">ANU</a> who
+      </h2>
+
+      <!-- Animated SVG Paths -->
+      <svg id="linedown"><line x1="0" y1="0" x2="0" y2="100" /></svg>
+      <span id="langhint">(click to view details)</span>
+      <svg id="rect">
+        <path id="rectleft" d="" />
+        <path id="rectright" d="" />
+      </svg>
+
+	  <br />
+
+      <!-- Project & Contact Details -->
+      <div id="details">
+        <h2>
+          Check out my
+          <a href="https://github.com/tusharmurali" class="d gray" target="_blank">
+            GitHub<span class="underline gray-bg"></span>
+          </a>,
+          <a href="/blog" class="d gray" target="_blank">
+            blog<span class="underline gray-bg"></span>
+          </a>, and
+          <a id="research" class="proj gray" data-proj="research" style="cursor: pointer">
+            research<span class="underline gray-bg"></span>
+          </a>.
+        </h2>
+
+        <br />
+
+        <h2 id="lastseen"></h2>
+
+        <h2>
+          Want to get in touch?
+          <a href="mailto:tushar@tusharmurali.com" class="d gray" target="_blank">
+            Email me!<span class="underline gray-bg"></span>
+          </a>
+        </h2>
+
+        <!-- ASCII Donut Art -->
+        <div id="donut">
+          <pre id="d" style="background-color: #000; color: #ccc; font-size: 10pt; text-align: center;">
                                   @@@$$$$$$@@@@
                               $$$$#############$$$$
                            #####***!*!!!!!!*****###$$#
@@ -122,24 +96,32 @@
                            -~:==!!!*!****!**!!!!==;:~.
                               ,~~:;;;=======;;;:~-.
                                  ..,--------,,.
-				</pre>
-			</div>
-		</div>
-		<div id="modal">
-			<h2></h2>
-			<p></p>
-			<div class="github">
-				<a target="_blank"><img src="img/GitHub-Mark-Light-120px-plus.png" alt="GitHub"></a>
-			</div>
-			<div class="close">✖</div>
-		</div>
-	</div>
-	<script type="text/javascript" src="js/intro.js"></script>
-	<script type="text/javascript" src="js/age.js"></script>
-	<script type="text/javascript" src="js/langs.js"></script>
-	<script type="text/javascript" src="js/seen.js"></script>
-	<script type="text/javascript" src="js/donut.js"></script>
-	<script type="text/javascript" src="js/tst.js"></script>
-</body>
+          </pre>
+        </div>
+      </div>
 
+      <!-- Modal -->
+      <div id="modal">
+        <h2></h2>
+        <p></p>
+        <div class="links">
+          <a class="demo-link" target="_blank" style="display: none">
+            <img src="images/demo.png" alt="Demo" class="modal-icon" />
+          </a>
+          <a class="github-link" target="_blank" style="display: none">
+            <img src="images/GitHub-Mark-Light-120px-plus.png" alt="GitHub" class="modal-icon" />
+          </a>
+        </div>
+        <div class="close">❌</div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/intro.js"></script>
+    <script src="js/age.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/last_seen.js"></script>
+    <script src="js/donut.js"></script>
+    <script src="js/tst.js"></script>
+  </body>
 </html>

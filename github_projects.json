@@ -1,0 +1,135 @@
+[
+  {
+    "title": "chess-memory",
+    "language": "JavaScript",
+    "description": "A visual memory trainer that uses Chess puzzles.",
+    "demo": "http://tusharmurali.com/chess-memory/",
+    "github": "https://github.com/tusharmurali/chess-memory"
+  },
+  {
+    "title": "anu-timetable",
+    "language": "Vue",
+    "description": "A web app that tells you when your next ANU lecture or tutorial is.",
+    "demo": "https://tusharmurali.com/anu-timetable/",
+    "github": "https://github.com/tusharmurali/anu-timetable"
+  },
+  {
+    "title": "wordle-ai",
+    "language": "JavaScript",
+    "description": "An AI for the daily word game Wordle.",
+    "demo": "http://tusharmurali.com/wordle-ai/",
+    "github": "https://github.com/tusharmurali/wordle-ai"
+  },
+  {
+    "title": "overleaf-dark-mode",
+    "language": "JavaScript",
+    "description": "A Chrome extension that provides a dark mode for the online LaTeX editor Overleaf.",
+    "demo": "https://chromewebstore.google.com/detail/ppkjalpibdaiahjefbapemimobpkpond",
+    "github": "https://github.com/tusharmurali/overleaf-dark-mode"
+  },
+  {
+    "title": "better-genesis",
+    "language": "Vue",
+    "description": "A web app that lets you view your Parent Genesis in an enhanced, more-informative dashboard.",
+    "demo": "https://better-genesis.herokuapp.com/",
+    "github": "https://github.com/tusharmurali/better-genesis"
+  },
+  {
+    "title": "cstimer-rp",
+    "language": "Python",
+    "description": "Discord Integration for csTimer.net.",
+    "github": "https://github.com/tusharmurali/cstimer-rp"
+  },
+  {
+    "title": "digit-classifier",
+    "language": "JavaScript",
+    "description": "Handwritten digit classification using neural networks.",
+    "demo": "https://tusharmurali.com/digit-classifier/",
+    "github": "https://github.com/tusharmurali/digit-classifier"
+  },
+  {
+    "title": "universal-ranks",
+    "language": "Vue",
+    "description": "A system to rank all-round Chess ability.",
+    "demo": "https://universal-ranks.herokuapp.com/",
+    "github": "https://github.com/tusharmurali/universal-ranks"
+  },
+  {
+    "title": "zpordle-ai",
+    "language": "Python",
+    "description": "An AI for the number guessing game Zpordle.",
+    "github": "https://github.com/tusharmurali/zpordle-ai"
+  },
+  {
+    "title": "adaptive-exercises",
+    "language": "HTML",
+    "description": "A web app that suggests exercises adapted to your skill level from mathematics textbooks.",
+    "github": "https://github.com/tusharmurali/adaptive-exercises"
+  },
+  {
+    "title": "adversarial-minesweeper",
+    "language": "JavaScript",
+    "description": "A twist on classic Minesweeper where the computer places mines after your moves to punish guessing.",
+    "demo": "https://tusharmurali.com/adversarial-minesweeper/",
+    "github": "https://github.com/tusharmurali/adversarial-minesweeper"
+  },
+  {
+    "title": "cublino",
+    "language": "Java",
+    "description": "A Java implementation of the Cublino game with AI opponents.",
+    "github": "https://github.com/tusharmurali/cublino"
+  },
+  {
+    "title": "life-visualization",
+    "language": "HTML",
+    "description": "A website that helps you visualize how long you are expected to live.",
+    "demo": "http://tusharmurali.com/life-visualization/",
+    "github": "https://github.com/tusharmurali/life-visualization"
+  },
+  {
+    "title": "othello-ai",
+    "language": "Haskell",
+    "description": "An AI that plays Othello (also known as Reversi), a classic board game.",
+    "github": "https://github.com/tusharmurali/othello-ai"
+  },
+  {
+    "title": "pople",
+    "language": "JavaScript",
+    "description": "A Wordle variant where you guess a country based on its relative population.",
+    "demo": "https://tusharmurali.com/pople/",
+    "github": "https://github.com/tusharmurali/pople"
+  },
+  {
+    "title": "rhythm",
+    "language": "Java",
+    "description": "A rhythm game I built for my AP Computer Science A final project.",
+    "github": "https://github.com/tusharmurali/rhythm"
+  },
+  {
+    "title": "seam-carving",
+    "language": "Java",
+    "description": "An algorithm for content-aware image resizing.",
+    "github": "https://github.com/tusharmurali/seam-carving"
+  },
+  {
+    "title": "sentiment-analysis",
+    "language": "Jupyter Notebook",
+    "description": "A model to predict sentiment scores from text reviews.",
+    "demo": "https://tusharmurali.com/sentiment-analysis/",
+    "github": "https://github.com/tusharmurali/sentiment-analysis"
+  },
+  {
+    "title": "trump-tweet-generator",
+    "language": "Jupyter Notebook",
+    "description": "A large language model trained on Donald Trump's tweets.",
+    "demo": "https://tusharmurali.com/trump-tweet-generator/",
+    "github": "https://github.com/tusharmurali/trump-tweet-generator"
+  },
+  {
+    "title": "visual-memory",
+    "language": "JavaScript",
+    "description": "A customizable web-based visual memory test inspired by the Human Benchmark game.",
+    "demo": "https://tusharmurali.com/visual-memory/",
+    "github": "https://github.com/tusharmurali/visual-memory"
+  }
+]
