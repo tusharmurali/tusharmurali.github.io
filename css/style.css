@@ -12,6 +12,9 @@ body {
 a {
   color: inherit;
   display: inline-block;
+}
+
+a.d {
   text-decoration: none;
 }
 
