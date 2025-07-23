@@ -15,7 +15,9 @@ axios
         language: repo.language,
         description: repo.description || "No description provided.",
         ...(repo.homepage && { demo: repo.homepage }),
-        github: repo.html_url
+        github: repo.html_url,
+        stars: repo.stargazers_count,
+        forks: repo.forks_count
       }));
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(formattedRepos, null, 2));
     console.log("Repositories saved to", OUTPUT_FILE);

@@ -5,11 +5,24 @@ let going = false;
 let currentEl = null;
 const GITHUB_USERNAME = "tusharmurali";
 const colors = [
-  "#e67e22", "#3498db", "#f1c40f", "#2ecc71", "#9b59b6", "#1abc9c",
-  "#e74c3c", "#95a5a6", "#16a085", "#f39c12", "#8e44ad", "#34495e",
+  "#e67e22",
+  "#f1c40f",
+  "#2ecc71",
+  "#3498db",
+  "#9b59b6",
+  "#e74c3c",
+
+  "#00cec9", 
+  "#a29bfe",
+  "#ff7675",
+
+  "#74b9ff"
 ];
-const langColorCount = 6;  // top languages count
-document.documentElement.style.setProperty('--tst-color', colors[8]);
+/*
+colors[topLanguagesCount] is reserved for "more"
+Remaining colors are used for research, blog, GitHub links, and finally TST time
+*/
+const topLanguagesCount = 5;
 
 // ==========================
 // DOM References
@@ -22,6 +35,12 @@ const details = document.querySelector("#details");
 const langHint = document.querySelector("#langhint");
 const modal = document.querySelector("#modal");
 const projectContainer = document.getElementById("projectContainer");
+const linkElements = [
+  document.getElementById("research"),
+  document.getElementById("blog"),
+  document.getElementById("github")
+];
+document.documentElement.style.setProperty("--tst-color", colors[topLanguagesCount + linkElements.length + 1]);
 
 // ==========================
 // Hint Setup
@@ -109,26 +128,33 @@ function animateButtonClick(button) {
 // ==========================
 function setUpPath() {
   const x = currentEl.offsetLeft + currentEl.clientWidth / 2 - 20;
-  const h = window.innerHeight - left.parentElement.getBoundingClientRect().y - 20;
+  const h =
+    window.innerHeight - left.parentElement.getBoundingClientRect().y - 20;
   const x2 = window.innerWidth - x - 40;
 
-  left.setAttribute("d", `
+  left.setAttribute(
+    "d",
+    `
     M ${x + 2},0
     C 100,0 40,0 40,0
     40,0 0,0 0,40
     0,40 0,60 0,${h - 40}
     0,${h - 40} 0,${h} 40,${h}
     93.75,${h} 100,${h} ${x2},${h}
-  `);
+  `
+  );
 
-  right.setAttribute("d", `
+  right.setAttribute(
+    "d",
+    `
     M -2,0
     C -2,0 ${x2 - 40},0 ${x2 - 40},0
     ${x2 - 40},0 ${x2},0 ${x2},40
     ${x2},40 ${x2},60 ${x2},${h - 40}
     ${x2},${h - 40} ${x2},${h} ${x2 - 40},${h}
     ${x2 - x + 40},${h} ${x2 - x},${h} ${x2 - x},${h}
-  `);
+  `
+  );
 
   right.style.transform = `translateX(${x + 1}px) translateY(1px)`;
 
@@ -197,27 +223,26 @@ function showModal(project, sourceElement, extraDescription) {
 
   // GitHub link
   const demoLink = modal.querySelector(".demo-link");
-	if (project.demo) {
-	demoLink.href = project.demo;
-	demoLink.style.display = "inline-block";
-	} else {
-	demoLink.style.display = "none";
-	}
+  if (project.demo) {
+    demoLink.href = project.demo;
+    demoLink.style.display = "inline-block";
+  } else {
+    demoLink.style.display = "none";
+  }
 
-	const githubLink = modal.querySelector(".github-link");
-	if (project.github) {
-	githubLink.href = project.github;
-	githubLink.style.display = "inline-block";
-	} else {
-	githubLink.style.display = "none";
-	}
+  const githubLink = modal.querySelector(".github-link");
+  if (project.github) {
+    githubLink.href = project.github;
+    githubLink.style.display = "inline-block";
+  } else {
+    githubLink.style.display = "none";
+  }
 
   modal.classList = "shown";
   modal.openingElement = sourceElement;
   MathJax.typeset();
   drawModalBackground();
 }
-
 
 function drawModalBackground() {
   if (!modal.classList.contains("shown")) return;
@@ -282,15 +307,23 @@ function loadAndRenderProjects() {
         const panelId = langToId(lang);
 
         const button = createLangButton(lang, color, panelId);
-        const panel = createLangPanel(lang, panelId, projects, descriptions, color);
+        const panel = createLangPanel(
+          lang,
+          panelId,
+          projects,
+          descriptions,
+          color
+        );
 
         langButtonsFragment.appendChild(button);
-        langButtonsFragment.appendChild(document.createTextNode(idx < 4 ? ", " : ", and "));
+        langButtonsFragment.appendChild(
+          document.createTextNode(idx < 4 ? ", " : ", and ")
+        );
         detailsEl.parentNode.insertBefore(panel, detailsEl);
       });
 
       // Render "more" panel
-      const moreButton = createLangButton("more", "#95a5a6", "more");
+      const moreButton = createLangButton("more", colors[topLanguagesCount], "more");
       const morePanel = createLangPanel(
         moreLanguages.map(([lang]) => lang).join(", "),
         "more",
@@ -303,7 +336,18 @@ function loadAndRenderProjects() {
       // Inject heading
       const langHeading = document.createElement("h2");
       langHeading.innerHTML = `uses ${langButtonsFragment.innerHTML}.`;
-      document.getElementById("linedown").insertAdjacentElement("beforebegin", langHeading);
+      document
+        .getElementById("linedown")
+        .insertAdjacentElement("beforebegin", langHeading);
+
+      // Assign colors to research, blog, and GitHub links using colors array
+      linkElements.forEach((el, i) => {
+        if (!el) return;
+        const color = colors[(topLanguagesCount + 1 + i) % colors.length];
+        el.style.color = color;
+        const underline = el.querySelector(".underline");
+        if (underline) underline.style.backgroundColor = color;
+      });
 
       // Attach event listeners
       document.querySelectorAll(".lang-button").forEach((btn) => {
@@ -326,7 +370,7 @@ function loadAndRenderProjects() {
         modal.classList = "shown";
         modal.openingElement = document.getElementById("research");
         MathJax.typeset();
-		drawModalBackground();
+        drawModalBackground();
       });
     })
     .catch((err) => console.error("Error loading projects:", err));
@@ -346,10 +390,12 @@ function groupProjectsByLanguage(projects) {
 }
 
 function splitLanguages(langGroups) {
-  const sorted = Object.entries(langGroups).sort((a, b) => b[1].length - a[1].length);
+  const sorted = Object.entries(langGroups).sort(
+    (a, b) => b[1].length - a[1].length
+  );
   return {
-    topLanguages: sorted.slice(0, 5),
-    moreLanguages: sorted.slice(5),
+    topLanguages: sorted.slice(0, topLanguagesCount),
+    moreLanguages: sorted.slice(topLanguagesCount),
   };
 }
 
@@ -381,13 +427,13 @@ function createLangPanel(title, id, projects, descriptions, color) {
     projDiv.className = "proj";
     projDiv.dataset.proj = project.title;
     projDiv.style.backgroundImage = `url(images/${project.title}.png)`;
-	projDiv.style.setProperty("--proj-border-color", color);
+    projDiv.style.setProperty("--proj-border-color", color);
 
     const titleEl = document.createElement("h3");
     titleEl.textContent = project.title;
 
     projDiv.appendChild(titleEl);
-	// Add project description below the title
+    // Add project description below the title
     if (project.description) {
       const desc = document.createElement("p");
       desc.textContent = project.description;
@@ -426,6 +472,26 @@ function createLangPanel(title, id, projects, descriptions, color) {
     // Append links if they exist
     if (links.childElementCount > 0) {
       projDiv.appendChild(links);
+    }
+
+    if (project.stars || project.forks) {
+      const stats = document.createElement("div");
+      stats.className = "proj-stats";
+
+      if (project.stars) {
+        const starSpan = document.createElement("span");
+        starSpan.innerHTML = `⭐ ${project.stars}`;
+        stats.appendChild(starSpan);
+      }
+
+      if (project.forks) {
+        const forkSpan = document.createElement("span");
+        forkSpan.innerHTML = `🍴 ${project.forks}`;
+        forkSpan.style.marginLeft = "10px";
+        stats.appendChild(forkSpan);
+      }
+
+      projDiv.appendChild(stats);
     }
 
     projDiv.addEventListener("click", () =>
