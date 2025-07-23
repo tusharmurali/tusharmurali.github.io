@@ -323,12 +323,14 @@ function loadAndRenderProjects() {
       });
 
       // Render "more" panel
-      const moreButton = createLangButton("more", colors[topLanguagesCount], "more");
+      const color = colors[topLanguagesCount]
+      const moreButton = createLangButton("more", color, "more");
       const morePanel = createLangPanel(
         moreLanguages.map(([lang]) => lang).join(", "),
         "more",
         moreLanguages.flatMap(([, projects]) => projects),
-        descriptions
+        descriptions,
+        color
       );
       langButtonsFragment.appendChild(moreButton);
       detailsEl.parentNode.insertBefore(morePanel, detailsEl);
