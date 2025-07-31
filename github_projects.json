@@ -5,7 +5,7 @@
     "description": "A visual memory trainer that uses Chess puzzles.",
     "demo": "http://tusharmurali.com/chess-memory/",
     "github": "https://github.com/tusharmurali/chess-memory",
-    "stars": 19,
+    "stars": 18,
     "forks": 4
   },
   {
@@ -14,7 +14,7 @@
     "description": "A web app that tells you when your next ANU lecture or tutorial is.",
     "demo": "https://tusharmurali.com/anu-timetable/",
     "github": "https://github.com/tusharmurali/anu-timetable",
-    "stars": 5,
+    "stars": 4,
     "forks": 1
   },
   {
@@ -23,15 +23,6 @@
     "description": "An AI for the daily word game Wordle.",
     "demo": "http://tusharmurali.com/wordle-ai/",
     "github": "https://github.com/tusharmurali/wordle-ai",
-    "stars": 4,
-    "forks": 0
-  },
-  {
-    "title": "overleaf-dark-mode",
-    "language": "JavaScript",
-    "description": "A Chrome extension that provides a dark mode for the online LaTeX editor Overleaf.",
-    "demo": "https://chromewebstore.google.com/detail/ppkjalpibdaiahjefbapemimobpkpond",
-    "github": "https://github.com/tusharmurali/overleaf-dark-mode",
     "stars": 3,
     "forks": 0
   },
@@ -41,7 +32,7 @@
     "description": "A web app that lets you view your Parent Genesis in an enhanced, more-informative dashboard.",
     "demo": "https://better-genesis.herokuapp.com/",
     "github": "https://github.com/tusharmurali/better-genesis",
-    "stars": 2,
+    "stars": 1,
     "forks": 0
   },
   {
@@ -49,7 +40,7 @@
     "language": "Python",
     "description": "Discord Integration for csTimer.net.",
     "github": "https://github.com/tusharmurali/cstimer-rp",
-    "stars": 2,
+    "stars": 1,
     "forks": 2
   },
   {
@@ -62,19 +53,11 @@
     "forks": 0
   },
   {
-    "title": "universal-ranks",
-    "language": "Vue",
-    "description": "A system to rank all-round Chess ability.",
-    "demo": "https://universal-ranks.herokuapp.com/",
-    "github": "https://github.com/tusharmurali/universal-ranks",
-    "stars": 1,
-    "forks": 0
-  },
-  {
-    "title": "zpordle-ai",
-    "language": "Python",
-    "description": "An AI for the number guessing game Zpordle.",
-    "github": "https://github.com/tusharmurali/zpordle-ai",
+    "title": "overleaf-dark-mode",
+    "language": "JavaScript",
+    "description": "A Chrome extension that provides a dark mode for the online LaTeX editor Overleaf.",
+    "demo": "https://chromewebstore.google.com/detail/ppkjalpibdaiahjefbapemimobpkpond",
+    "github": "https://github.com/tusharmurali/overleaf-dark-mode",
     "stars": 1,
     "forks": 0
   },
@@ -155,6 +138,15 @@
     "forks": 0
   },
   {
+    "title": "tic-tac-toe-ai",
+    "language": "JavaScript",
+    "description": "Unbeatable Tic Tac Toe game with minimax AI",
+    "demo": "https://tusharmurali.com/tic-tac-toe-ai/",
+    "github": "https://github.com/tusharmurali/tic-tac-toe-ai",
+    "stars": 0,
+    "forks": 0
+  },
+  {
     "title": "trump-tweet-generator",
     "language": "Jupyter Notebook",
     "description": "A large language model trained on Donald Trump's tweets.",
@@ -164,11 +156,28 @@
     "forks": 0
   },
   {
+    "title": "universal-ranks",
+    "language": "Vue",
+    "description": "A system to rank all-round Chess ability.",
+    "demo": "https://universal-ranks.herokuapp.com/",
+    "github": "https://github.com/tusharmurali/universal-ranks",
+    "stars": 0,
+    "forks": 0
+  },
+  {
     "title": "visual-memory",
     "language": "JavaScript",
     "description": "A customizable web-based visual memory test inspired by the Human Benchmark game.",
     "demo": "https://tusharmurali.com/visual-memory/",
     "github": "https://github.com/tusharmurali/visual-memory",
+    "stars": 0,
+    "forks": 0
+  },
+  {
+    "title": "zpordle-ai",
+    "language": "Python",
+    "description": "An AI for the number guessing game Zpordle.",
+    "github": "https://github.com/tusharmurali/zpordle-ai",
     "stars": 0,
     "forks": 0
   }
