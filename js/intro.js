@@ -51,6 +51,10 @@ let update = () => {
             header.style.position = "relative";
             header.style.width = "100%"
             anim1();
+
+            if (window.location.hash === '#research') {
+                linkElements[0].click();
+            }
         }, 500);
         window.localStorage.stepDenominator = 2;
     }
