@@ -5,7 +5,7 @@
     "description": "A visual memory trainer that uses Chess puzzles.",
     "demo": "http://tusharmurali.com/chess-memory/",
     "github": "https://github.com/tusharmurali/chess-memory",
-    "stars": 18,
+    "stars": 19,
     "forks": 4
   },
   {
@@ -147,11 +147,11 @@
     "forks": 0
   },
   {
-    "title": "trump-tweet-generator",
+    "title": "trumpgpt",
     "language": "Jupyter Notebook",
     "description": "A large language model trained on Donald Trump's tweets.",
-    "demo": "https://tusharmurali.com/trump-tweet-generator/",
-    "github": "https://github.com/tusharmurali/trump-tweet-generator",
+    "demo": "https://tusharmurali.com/trumpgpt/",
+    "github": "https://github.com/tusharmurali/trumpgpt",
     "stars": 0,
     "forks": 0
   },
