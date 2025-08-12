@@ -12,11 +12,11 @@ const colors = [
   "#9b59b6",
   "#e74c3c",
 
-  "#00cec9", 
+  "#00cec9",
   "#a29bfe",
   "#ff7675",
 
-  "#74b9ff"
+  "#74b9ff",
 ];
 /*
 colors[topLanguagesCount] is reserved for "more"
@@ -38,9 +38,12 @@ const projectContainer = document.getElementById("projectContainer");
 const linkElements = [
   document.getElementById("research"),
   document.getElementById("blog"),
-  document.getElementById("github")
+  document.getElementById("github"),
 ];
-document.documentElement.style.setProperty("--tst-color", colors[topLanguagesCount + linkElements.length + 1]);
+document.documentElement.style.setProperty(
+  "--tst-color",
+  colors[topLanguagesCount + linkElements.length + 1]
+);
 
 // ==========================
 // Hint Setup
@@ -323,7 +326,7 @@ function loadAndRenderProjects() {
       });
 
       // Render "more" panel
-      const color = colors[topLanguagesCount]
+      const color = colors[topLanguagesCount];
       const moreButton = createLangButton("more", color, "more");
       const morePanel = createLangPanel(
         moreLanguages.map(([lang]) => lang).join(", "),
@@ -360,12 +363,20 @@ function loadAndRenderProjects() {
       document.getElementById("research").addEventListener("click", () => {
         modal.children[0].innerHTML = "Research";
         modal.children[1].innerHTML = researchProjects
-          .map(
-            (p) => `
-            <a href="files/${p.file}" class="d" target="_blank" style="color:#949494;">
-              ${p.title}<span class="underline" style="background-color:#949494;"></span>
-            </a><br>`
-          )
+          .map((p) => {
+            const linkColor = "#e0e0e0";
+            const watchTalkColor = "#ffb3a7";
+
+            const pdfLink = `<a href="files/${p.file}" class="d" target="_blank" style="color:${linkColor};">
+      ${p.title}<span class="underline" style="background-color:${linkColor};"></span></a>`;
+
+            const videoLink = p.video
+              ? `&nbsp;•&nbsp;<a href="${p.video}" class="d" target="_blank" style="color:${watchTalkColor};">
+           Watch Talk<span class="underline" style="background-color:${watchTalkColor};"></span></a>`
+              : "";
+
+            return `<div style="margin-bottom: 5px; text-align: center;">${pdfLink}${videoLink}</div>`;
+          })
           .join("");
         modal.children[1].style.textAlign = "center";
         modal.children[2].style.display = "none";
