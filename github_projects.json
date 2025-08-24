@@ -138,6 +138,15 @@
     "forks": 0
   },
   {
+    "title": "streamforge",
+    "language": "TypeScript",
+    "description": "Cloud-native video streaming platform with scalable upload, transcoding, and playback.",
+    "demo": "https://streamforge.tusharmurali.com",
+    "github": "https://github.com/tusharmurali/streamforge",
+    "stars": 0,
+    "forks": 0
+  },
+  {
     "title": "tic-tac-toe-ai",
     "language": "JavaScript",
     "description": "Unbeatable Tic Tac Toe game with minimax AI",

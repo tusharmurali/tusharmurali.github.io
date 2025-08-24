@@ -294,7 +294,7 @@ function loadAndRenderProjects() {
     fetch("github_projects.json").then((res) => res.json()),
     fetch("extra_projects.json").then((res) => res.json()),
     fetch("research_projects.json").then((res) => res.json()),
-    fetch("extra_project_descriptions.json").then((res) => res.json()),
+    fetch("github_project_descriptions.json").then((res) => res.json()),
   ])
     .then(([githubProjects, extraProjects, researchProjects, descriptions]) => {
       const allProjects = [...githubProjects, ...extraProjects];
