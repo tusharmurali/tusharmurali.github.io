@@ -113,6 +113,15 @@
     "forks": 0
   },
   {
+    "title": "review-sense",
+    "language": "Jupyter Notebook",
+    "description": "A model to predict sentiment scores from text reviews.",
+    "demo": "https://tusharmurali.com/review-sense/",
+    "github": "https://github.com/tusharmurali/review-sense",
+    "stars": 0,
+    "forks": 0
+  },
+  {
     "title": "rhythm",
     "language": "Java",
     "description": "A rhythm game I built for my AP Computer Science A final project.",
@@ -125,15 +134,6 @@
     "language": "Java",
     "description": "An algorithm for content-aware image resizing.",
     "github": "https://github.com/tusharmurali/seam-carving",
-    "stars": 0,
-    "forks": 0
-  },
-  {
-    "title": "sentiment-analysis",
-    "language": "Jupyter Notebook",
-    "description": "A model to predict sentiment scores from text reviews.",
-    "demo": "https://tusharmurali.com/sentiment-analysis/",
-    "github": "https://github.com/tusharmurali/sentiment-analysis",
     "stars": 0,
     "forks": 0
   },
