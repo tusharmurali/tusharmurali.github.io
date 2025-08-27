@@ -379,6 +379,8 @@ function loadAndRenderProjects() {
           })
           .join("");
         modal.children[1].style.textAlign = "center";
+        modal.children[1].style.overflowY = "auto";
+        modal.children[1].style.height = "70%";
         modal.children[2].style.display = "none";
         modal.classList = "shown";
         modal.openingElement = document.getElementById("research");
