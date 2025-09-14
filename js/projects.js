@@ -340,7 +340,7 @@ function loadAndRenderProjects() {
 
       // Inject heading
       const langHeading = document.createElement("h2");
-      langHeading.innerHTML = `who uses ${langButtonsFragment.innerHTML}.`;
+      langHeading.innerHTML = `uses ${langButtonsFragment.innerHTML}.`;
       document
         .getElementById("linedown")
         .insertAdjacentElement("beforebegin", langHeading);
