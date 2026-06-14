@@ -283,8 +283,8 @@ line {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6px 10px;
-  font-size: 2.5rem;
+  padding: 4px 8px;
+  font-size: 1.5rem;
   font-family: sans-serif;
   font-weight: bold;
   color: white;
@@ -296,18 +296,18 @@ line {
 .tst-clock-row {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 8px;
 }
 
 .tst-digits {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: var(--tst-color);
 }
 
 .tst-periods {
   display: flex;
   flex-direction: column;
-  font-size: 1.2rem;
+  font-size: 0.75rem;
   text-align: center;
 }
 
@@ -323,7 +323,7 @@ line {
 }
 
 .tst-label {
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   color: #aaa;
   opacity: 0.7;
   margin-top: 5px;
