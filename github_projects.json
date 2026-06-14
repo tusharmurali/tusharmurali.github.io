@@ -5,7 +5,7 @@
     "description": "A visual memory trainer that uses Chess puzzles.",
     "demo": "http://tusharmurali.com/chess-memory/",
     "github": "https://github.com/tusharmurali/chess-memory",
-    "stars": 19,
+    "stars": 20,
     "forks": 4
   },
   {
@@ -25,6 +25,15 @@
     "github": "https://github.com/tusharmurali/wordle-ai",
     "stars": 3,
     "forks": 0
+  },
+  {
+    "title": "overleaf-dark-mode",
+    "language": "JavaScript",
+    "description": "A Chrome extension that provides a dark mode for the online LaTeX editor Overleaf.",
+    "demo": "https://chromewebstore.google.com/detail/ppkjalpibdaiahjefbapemimobpkpond",
+    "github": "https://github.com/tusharmurali/overleaf-dark-mode",
+    "stars": 2,
+    "forks": 1
   },
   {
     "title": "better-genesis",
@@ -53,15 +62,6 @@
     "forks": 0
   },
   {
-    "title": "overleaf-dark-mode",
-    "language": "JavaScript",
-    "description": "A Chrome extension that provides a dark mode for the online LaTeX editor Overleaf.",
-    "demo": "https://chromewebstore.google.com/detail/ppkjalpibdaiahjefbapemimobpkpond",
-    "github": "https://github.com/tusharmurali/overleaf-dark-mode",
-    "stars": 1,
-    "forks": 0
-  },
-  {
     "title": "adaptive-exercises",
     "language": "HTML",
     "description": "A web app that suggests exercises adapted to your skill level from mathematics textbooks.",
@@ -71,7 +71,7 @@
   },
   {
     "title": "adversarial-minesweeper",
-    "language": "JavaScript",
+    "language": "HTML",
     "description": "A twist on classic Minesweeper where the computer places mines after your moves to punish guessing.",
     "demo": "https://tusharmurali.com/adversarial-minesweeper/",
     "github": "https://github.com/tusharmurali/adversarial-minesweeper",
