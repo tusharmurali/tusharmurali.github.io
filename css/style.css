@@ -435,6 +435,15 @@ line {
   transform: scale(1.15);
 }
 
+/* ========== TikTok Link ========== */
+.tiktok-link {
+  text-decoration: none;
+  background: linear-gradient(90deg, #00F2EA, #FE2C55);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* ========== Responsive ========== */
 @media screen and (max-width: 600px) {
   body {
